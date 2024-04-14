@@ -1,0 +1,54 @@
+<!Doctype html>
+<html>
+<head>
+<title>object demo</title>
+<script language="javascript">
+var txt="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.write(txt.length);
+var x='It\'s alright';
+var y="We are the so-called \"viking\"from the north.";
+document.write(x+"<br>"+y);
+var str="Please locate where'locate' occurs!";
+var pos=str.indexOf("locate");
+document.write(pos);
+var str="Please locate where 'locate' occurs!";
+var pos=str.search("locate");
+document.write(pos);
+var str="Apple,Banana,kiwi";
+var res=str.slice(7,13);
+document.write(res);
+var str="Apple,Banana,Kiwi";
+var res=str.substring(7,13);
+document.write(res);
+var str="Apple,Banana,Kiwi';
+var res=str.substr(7,6);
+document.write(res);
+var str="Please visit Microsoft!";
+var n=str.replace("Microsoft","W3School");
+document.write(n);
+var text1="Hello World!";
+var text2=text1.tolowerCase();
+document.write(text2);
+var text1="Hello";
+var text2="World";
+text3=text1.concat("",text2);
+document.write(text3);
+var str="HELLO WORLD";
+document.write(str.charCodeAt(0));
+var txt="a,b,c,d,e";
+var arr=txt.split("");
+document.write(arr[0]+""+arr[2]);
+<!Doctype html>
+<html>
+<head>
+<title>object demo</title>
+<script language="javascript">
+myobj1=new object(123);
+document.write(myobj1.toString()+"<br>");
+myobj2=new Object("hello world");
+document.write(myobj2.valueOf());
+</script>
+</head>
+<body>
+</body>
+</html>
